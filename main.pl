@@ -23,5 +23,5 @@ come(peixinho, alga).
 come(lince, cervo).
 
 
-
-
+presa(X, Y) :- come(Y, X). 
+eh_presa(X) :- come( ,X).
